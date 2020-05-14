@@ -1,0 +1,138 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  color: #5f6368;
+}
+
+.header__list {
+  display: flex;
+  height: 60px;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.header__link.square {
+  width: 30px;
+  height: 30px;
+  background-image: url('http://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-position: -132px -38px;
+  opacity: 0.5;
+}
+
+.header__link.btn {
+  color: #fff;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+  color: #5f6368;
+}
+
+.footer__nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.main__form {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.main__input {
+  font-size: 1.25rem;
+  padding: 1rem 4rem;
+  color: rgba(0,0,0,.87);
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  outline: none;
+  width: 600px;
+}
+
+.main__input:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.main__icon-search {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 18px;
+  top: 13px;
+  color: #9AA0A6;
+  fill: currentColor;
+}
+
+.main__icon-mic {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 18px;
+  top: 13px;
+}
+
+.main__actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.main__btn {
+  padding: 0.75rem;
+  background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  border: 1px solid #f2f2f2;
+  color: #5F6368;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 1rem;
+  outline: none;
+}
+
+.main__btn:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
